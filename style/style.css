@@ -69,16 +69,25 @@ hr {
 }
 
 input {
+  width: 80%;
   height: 50px;
   margin-top: 150px;
-  margin-left: 200px;
+  margin-left: 80px;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
 }
 
 button {
   height: 50px;
+  width: auto;
   font-family: 'Ubuntu', sans-serif;
   margin-bottom: 50px;
+  background: linear-gradient(45deg, #9933ff 0%, #ff6666 100%);
+}
+
+button i {
+  font-size: 35px;
+  padding: 5px;
 }
 
 img {
