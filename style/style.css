@@ -70,15 +70,13 @@ hr {
 
 input {
   width: 80%;
-  height: 50px;
-  margin-top: 150px;
-  margin-left: 80px;
+  height: 10%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
 }
 
 button {
-  height: 50px;
+  height: 10%;
   width: auto;
   font-family: 'Ubuntu', sans-serif;
   margin-bottom: 50px;
@@ -90,24 +88,34 @@ button i {
   padding: 5px;
 }
 
+.search-bar {
+  padding: 20%;
+}
+
 img {
   margin-left: 20px;
   margin-bottom: 20px;
   width: 350px;
 }
 
-@media screen and (max-height: 300px) {
+@media screen and (max-width: 550px) {
   ul {
     margin-top: 40px;
   }
   header a {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   header .logo {
-    font-size: 20px;
+    font-size: 30px;
   }
   header .navitem {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .search-bar {
+    padding: 10%;
+  }
+  .navbar-toggler {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
